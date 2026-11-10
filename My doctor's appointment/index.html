@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            My doctor's appointment
+        </title>
+    </head>
+    <body>
+        <h1>
+        my doctor's appointment
+        </h1>
+        <form>
+            <fieldset>
+                <legend>
+                    Personal details
+                </legend>
+                <label>
+                    Full name
+                </label><br>
+                <input type="text" id="name" placeholder="enter your name"><br><br>
+                <label>
+                    Enter your password
+                </label><br>
+                <input type="password" id="pass" placeholder="enter your password"><br><br>
+                <label>
+                    Enter your date of birth
+                </label><br>
+                <input type="date" id="dob">
+            </fieldset>
+            <br><hr><br>
+            <fieldset>
+            <legend>
+                Other details
+            </legend> 
+            <label>
+                select specialist
+            </label><br>
+            <select id="specialist">
+                <option value="choose">
+                    choose a specialist
+                </option>
+                <option value="dr abc">
+                    Doctor Abc
+                </option>
+                <option value="dr def">
+                    Doctor def
+                </option>
+            </select><br>
+            <label>
+                Deceased name
+            </label><br>
+            <input type="radio" name="reason" value="stomach">
+            stomach pain<br>
+            <input type="radio" name="reason" value="allergy">
+            allergy<br>
+            <label>
+                symptoms
+            </label><br>
+            <textarea rows="3" cols="25" placeholder="symptoms">
+
+            </textarea><br>
+            <label>
+                day
+            </label><br>
+            <input type="checkbox" value="today"> today <br>
+            <input type="checkbox" value="tommorow"> tommorow <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="schedule">
+
+        </form>
+
+        
+    </body>
+</html>
